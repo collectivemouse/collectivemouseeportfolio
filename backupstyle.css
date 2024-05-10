@@ -1,0 +1,194 @@
+.introduction {
+    position:relative; 
+
+    font-size:80px;
+    background: #ccdbfd; 
+    text-align:center;
+    width: 50%;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+    
+}
+h1 {
+    font-family:"Fantasy";
+    font-size: 5em;  /* Increase the font size */
+    color: #03396c;  /* Dark text color for readability */
+}
+body {
+    background-color:#abc4ff;
+    
+}
+
+
+
+
+.main-container {
+
+    display: flex;
+    flex-direction: row;
+    background-color:#6497b1;
+}
+
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color:#b3cde0;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+
+
+.sidebar {
+    flex: 0.5; /* Smallest space for the sidebar */
+   
+    text-align: center;
+    background-color: #e0f7fa; /* Light cyan background */
+    border-radius: 10px; 
+    margin-right:700px;
+    margin:auto;
+    float:right;
+}
+.sidebar img {
+        margin-left:200px;
+        max-width: 100%; /* Ensure image fits within the sidebar */
+        border-radius: 10px; /* Rounded corners for a smooth look */
+         /* Spacing at the top */
+}
+        
+.wrap-image {
+    max-width: 600px; /* Limit the width of the image */
+    border-radius: 10px; /* Rounded corners */ 
+ float:right;}
+.Description {
+   
+    
+    border-radius: 10px;
+    font-family: "Bookman Old Style";
+    
+    text-align: center; /* Align text centrally */
+    margin: 30px; /* Space around the section */
+
+
+    
+    border-radius: 10px;
+    font-family: "Bookman Old Style";
+    font-size: 25px; /* Consistent font size */
+    text-align: center; /* Align text centrally */
+    margin: 20px; /* Space around the section */
+    background-color:#6497b1;
+}
+.flex-container {
+    
+    display: flex; /* Enable flex layout */
+    justify-content: space-around; /* Distribute space evenly */
+    align-items: flex-start; /* Align items at the top */
+    padding: 20px;
+    background-color: #b3cde0;
+
+    border-radius:50px;
+
+    font-family:"Bookman Old Style";
+    font-size:20px;
+    margin-bottom: 20px;
+
+ }
+section.Introduction {
+    left:20px;
+    top:220px;
+    background-size: cover; /* Makes the image cover the entire section */
+    background-position: center; /* Centers the background image */
+    color:black; /* Ensures text is visible against the background */
+    padding: 20px; /* Provides padding around the text */
+    border-radius: 10px; /* Optional: Rounds the corners */
+    color: rgba(0,0,0,0.6);
+    margin: 20px; /* Space around the section */
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+background-color:#b0b8ce;
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    
+    
+}
+
+ 
+
+
+
+    
+        
+    
+       
+        hr {
+            width: 80%;          /* Span 80% of the container */
+            height: 3px;         /* 3px thick */
+            background-color: #333; /* Dark gray color */
+            border: none;        /* No additional border */
+            border-radius: 5px;  /* Rounded edges */
+            margin: 20px 0;        }
+
+  ul {text-align:center;}
+
+   
+  .article-beside-intro {
+    left:70px;
+    top:220px;
+    background-size: cover; /* Makes the image cover the entire section */
+    background-position: center; /* Centers the background image */
+    color:black; /* Ensures text is visible against the background */
+    padding: 20px; /* Provides padding around the text */
+    border-radius: 10px; /* Optional: Rounds the corners */
+    color: rgba(0,0,0,0.6);
+    margin: 20px; /* Space around the section */
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07) ;
+  background-color:#b0b8ce; 
+  font-family:Bookman Old Style;
+  font-size:20px
+ 
+  }
+    p { background-color: #b0b8ce}
+    
+
+        .sidecontent {  
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin-top: 0px;
+
+            
+        .sidebar1 {
+                flex: 0.5; /* Smallest space for the sidebar */
+    
+    text-align: center;
+    background-color: #e0f7fa; /* Light cyan background */
+    border-radius: 10px; 
+    
+    margin-top:0px;
+    float:right;
+            }
+        
+        }
